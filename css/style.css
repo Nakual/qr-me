@@ -1,0 +1,96 @@
+:root {
+    --font: 'Outfit', sans-serif;
+    --fontSizePara: 15px;
+
+    --white: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90rem;
+}
+
+@media (min-width:1440px){
+    .cont-3 {
+        max-width: 35rem;
+        
+        margin: auto;
+        height: 60rem;
+        border-radius: 2rem;
+        background-color: var(--white);
+    }
+}
+.cont-3 {
+    max-width: 35rem;
+    
+    margin: auto;
+    height: 60rem;
+    border-radius: 2rem;
+    background-color: var(--white);
+}
+
+@media (min-width:375px){
+    .cont-3{
+        height: 55rem;
+
+    }
+
+}
+
+.cont-2{
+    padding: 1rem;
+}
+
+
+
+
+body {
+    background-color: var(--Lightgray);
+    font-family: var(--font);
+}
+
+.imagen {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.informacion{
+    padding: 2rem;
+    text-align: center;
+}
+.titulo{
+    font-size: 15px;
+    font-weight: 700;
+    
+
+}
+
+.parrafo{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--Grayishblue);
+    
+}
